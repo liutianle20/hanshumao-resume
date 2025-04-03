@@ -55,9 +55,9 @@ jQuery(document).ready(function($) {
         nav.fadeOut("fast");
       } else {
         if (y < h * 0.2) {
-          nav.removeClass("opaque").fadeIn("fast");
+          nav.removeClass("blur").fadeIn("fast");
         } else {
-          nav.addClass("opaque").fadeIn("fast");
+          nav.addClass("blur").fadeIn("fast");
         }
       }
     });
